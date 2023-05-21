@@ -15,10 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  shiryam,
+  codeprism,
+  eonlint,
   carrent,
   jobit,
   tripguide,
@@ -42,19 +41,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Backend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Devops Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
+    icon: mobile,
+  },
+  {
+    title: "Technical Blogger",
     icon: creator,
   },
 ];
@@ -116,55 +115,50 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Backend Developer",
+    company_name: "Codeprism Technologies",
+    icon: codeprism,
+    iconBg: "#1B1B1B",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and optimized API endpoints,reducing response time and improving system performance.",
+      "Used TypeORM for complex queries and efficient database interaction, improving data retrieval and manipulation.",
+      "Collaborated with the front-end team to define API contracts, ensuring seamless integration.",
+      "Implemented event-driven integration between microservices using RabbitMQ, ensuring efficient & reliable data\n" +
+      "exchange.",
+      "Proactively optimized microservices architecture based on Prometheus monitoring data, enhancing performance,\n" +
+      "scalability, and stability."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer Intern",
+    company_name: "Eonlint",
+    icon: eonlint,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a customized CRM system, streamlining CRM processes and improving overall efficiency.",
+      "Created student & college dashboards, enhancing user experience and facilitating easy access to important info.",
+      "Leveraged Next.js forfrontend development and Express.js with MongoDB for backend development, ensuring\n" +
+      "seamless integration and efficient data management",
+      "Utilized AWS services (EC2, S3, etc.) for storage and infra management,resulting in scalable & reliable application.",
+      "Contributed to India’s 1st AI-powered Edutech platform, developing chatbot w/ advanced capabilities &\n" +
+      "personalized AI career counseling using ChatGPT APIs, providing tailored guidance to students."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "SDE Intern",
+    company_name: "Shiryam Technologies",
+    icon: shiryam,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2022 - June 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using React.js and other related technologies.Spearheaded development of essential features for Troopod,resulting in intuitive and user-friendly dashboard.",
+      "Implemented real-time notifications and customizable user preferences in the dashboard, creating a seamless and\n" +
+      "personalized user experience.",
+      "Built a robust backend infrastructure using Node.js, Express, and MongoDB for efficient storage and retrieval of\n" +
+      "user preferences and notification data.",
+      "Utilized React to build dynamic and interactive frontend components for effortless user preference customization.",
     ],
   },
 ];
